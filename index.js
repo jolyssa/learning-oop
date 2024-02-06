@@ -61,3 +61,20 @@ function object() {
 primitive()
 object()
 
+
+/**********CHALLENGE**********/
+
+/*
+make a stopwatch, named sw to have the following properties and methods
+.start()
+.stop()
+.reset()
+*/
+
+function Watch() {
+    let seconds = 0
+    start: function(){
+        Date.now()
+    }
+}
+
