@@ -73,8 +73,7 @@ make a stopwatch, named sw to have the following properties and methods
 
 function Watch() {
     let seconds = 0
-    start: function(){
+    this.start = function(){
         Date.now()
     }
 }
-
